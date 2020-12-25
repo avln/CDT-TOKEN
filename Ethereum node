@@ -1,0 +1,8 @@
+Ip
+35.196.25.109
+Json rpc
+https://ethshared.bdnodes.net
+Auth token
+vpt7hR9LpMB9rYcgzO2MEWZfOxj3Q1AnFwj8YD7PsB0
+Code
+curl -X POST 'https://ethshared.bdnodes.net' -H 'Content-Type: application/json' -H 'X-Auth-Token: vpt7hR9LpMB9rYcgzO2MEWZfOxj3Q1AnFwj8YD7PsB0' --data-raw '{"id":1,"jsonrpc":"2.0","method":"net_peerCount","params":[]}'
