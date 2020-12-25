@@ -1,0 +1,10 @@
+Ip
+34.231.21.170
+
+Json rpc End point url
+https://btccore-main.bdnodes.net
+
+AUTH TOKEN:
+dWfnDd2WvrhbwiHSvmP4K0txZpLi7IsIWvOplxxxNOw
+
+curl --user blockdaemon:blockdaemon -X POST 'https://btccore-main.bdnodes.net' -H 'Content-Type: application/json' -H 'X-Auth-Token: dWfnDd2WvrhbwiHSvmP4K0txZpLi7IsIWvOplxxxNOw' --data-raw '{"id":1,"jsonrpc":"2.0","method":"getblockchaininfo","params":[]}'
